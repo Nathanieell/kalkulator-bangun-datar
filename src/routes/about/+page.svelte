@@ -1,4 +1,6 @@
 <script lang="ts">
+	import Meta from '$src/lib/components/Meta.svelte';
+
 	const members = [
 		{
 			name: 'Ammar Farras H',
@@ -53,6 +55,7 @@
 	];
 </script>
 
+<Meta title="About" />
 <br />
 <div class="container max-w-6xl px-3 lg:px-0 md:mx-auto">
 	<section>

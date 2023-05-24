@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Meta from '$src/lib/components/Meta.svelte';
 	import { FormulaType, shapes, toTitleCase } from '$src/lib/utils';
 
 	let currentShape = -1;
@@ -59,6 +60,7 @@
 	}
 </script>
 
+<Meta />
 <div class="mt-16 text-center flex flex-col gap-y-4 justify-center items-center">
 	<img alt="Icon Calculator" src="/calculator.png" width="75px" height="75px" />
 	<select
